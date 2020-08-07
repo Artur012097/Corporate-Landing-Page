@@ -42,7 +42,12 @@ a {
   margin: 0 auto;
 }
 
-.pink-subtitle {
+.title-block {
+  text-align: center;
+  padding: 100px 0 50px;
+}
+
+.block__subtitle {
   font-family: "Exo", sans-serif;
   font-size: 16px;
   line-height: 50px;
@@ -52,7 +57,7 @@ a {
   text-transform: uppercase;
 }
 
-.block-title {
+.block__title {
   font-family: "Exo", sans-serif;
   font-size: 40px;
   line-height: 50px;
@@ -62,7 +67,36 @@ a {
   margin-bottom: 45px;
 }
 
-.block-par {
+.block__par {
+  opacity: 0.65;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #282828;
+}
+
+.content-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content-row__block {
+  text-align: center;
+}
+
+.content-row__title {
+  font-family: "Exo", sans-serif;
+  font-size: 22px;
+  line-height: 49px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #282828;
+}
+
+.content-row__text {
   opacity: 0.65;
   font-family: "Exo", sans-serif;
   font-size: 16px;
@@ -150,7 +184,7 @@ header .container .content-text {
 
 .design {
   width: 100%;
-  min-height: 730px;
+  min-height: 725px;
   background-color: #fff;
 }
 
@@ -195,5 +229,35 @@ header .container .content-text {
 .design .content-right {
   width: 35%;
   background: url(../img/design/design_right.png) no-repeat;
+}
+
+.features {
+  min-height: 675px;
+  position: relative;
+}
+
+.features:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 20%;
+  max-width: 162px;
+  width: 100%;
+  max-height: 215px;
+  height: 100%;
+  background: url(../img/features/earphones.png);
+  block-size: cover;
+}
+
+.features .container {
+  background: url(../img/features/features_bg.png) no-repeat;
+}
+
+.features-row__block {
+  margin: 0 10px;
+}
+
+.features-row__title {
+  margin: 30px 0 15px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,33 @@
+.features {
+    min-height: 675px;
+    position: relative;
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 20%;
+            max-width: 162px;
+            width: 100%;
+            max-height: 215px;
+            height: 100%;
+            background: url(../img/features/earphones.png);
+            block-size: cover;
+        }
+
+    .container {
+        background: url(../img/features/features_bg.png) no-repeat;
+        
+    }
+
+    &-row {
+
+        &__block {
+            margin: 0 10px;
+        }
+
+        &__title {
+            margin: 30px 0 15px;
+        }
+    }
+}

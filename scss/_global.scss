@@ -29,7 +29,11 @@ a {
     margin: 0 auto;
 }
 
-.pink-subtitle {
+.title-block {
+    text-align: center;
+    padding: 100px 0 50px;
+}
+.block__subtitle {
     font-family: $Exo;
     font-size: 16px;
     line-height: 50px;
@@ -39,7 +43,7 @@ a {
     text-transform: uppercase;
 }
 
-.block-title {
+.block__title {
     font-family: $Exo;
     font-size: 40px;
     line-height: 50px;
@@ -49,7 +53,7 @@ a {
     margin-bottom: 45px;
 }
 
-.block-par {
+.block__par {
     opacity: 0.65;
     font-family: $Exo;
     font-size: 16px;
@@ -57,4 +61,31 @@ a {
     font-weight: $medium;
     letter-spacing: 0.04em;
     color: $gray-dark;
+}
+
+.content-row {
+    display: flex;
+
+    &__block {
+        text-align: center;
+    }
+
+    &__title {
+        font-family: $Exo;
+        font-size: 22px;
+        line-height: 49px;
+        font-weight: $medium;
+        letter-spacing: 0.04em;
+        color: $gray-dark;
+    }
+
+    &__text {
+        opacity: 0.65;
+        font-family: $Exo;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: $medium;
+        letter-spacing: 0.04em;
+        color: $gray-dark;
+    }
 }
