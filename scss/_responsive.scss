@@ -1,0 +1,21 @@
+.responsive {
+    min-height: 550px;
+    
+    .container {
+        background: url(../img/responsive/triangle.png) no-repeat;
+        display: flex;
+        align-items: center;
+    }
+    .content {
+        display: flex;
+
+        &-right {
+            margin-top: 20px;
+            margin-left: 50px; 
+
+            .right-block__title {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

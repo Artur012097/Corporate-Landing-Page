@@ -1,0 +1,44 @@
+.developers {
+    min-height: 648px;
+
+    .container {
+        background: url(../img/developers/developers_bg.png) no-repeat;
+    }
+        &-row {
+            margin-top: 100px;
+
+            &__block {
+                margin: 0 25px;
+            }
+
+            &__name {
+                color: $white;
+            }
+
+            &__position {
+                font-family: $Exo;
+                font-size: 16px;
+                line-height: 49px;
+                font-weight: $medium;
+                color: $orange-red;
+            }
+
+            &__blq {
+                opacity: 0.65;
+                font-weight: $normal;
+                font-style: italic;
+                color: $white;
+            }
+        }
+    &-partner {
+        &-row {
+            max-width: 1000px;
+            width: 100%;
+            padding: 150px 0 0;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}

@@ -77,6 +77,10 @@ a {
   color: #282828;
 }
 
+.block__points {
+  color: #ff6d6d;
+}
+
 .content-row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -218,10 +222,6 @@ header .container .content-text {
   height: 65%;
 }
 
-.design .content-left .left-block__point {
-  color: #ff6d6d;
-}
-
 .design .content-left .left-block__par-1 {
   margin-bottom: 40px;
 }
@@ -259,5 +259,85 @@ header .container .content-text {
 
 .features-row__title {
   margin: 30px 0 15px;
+}
+
+.responsive {
+  min-height: 550px;
+}
+
+.responsive .container {
+  background: url(../img/responsive/triangle.png) no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.responsive .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.responsive .content-right {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.responsive .content-right .right-block__title {
+  margin-bottom: 20px;
+}
+
+.developers {
+  min-height: 648px;
+}
+
+.developers .container {
+  background: url(../img/developers/developers_bg.png) no-repeat;
+}
+
+.developers-row {
+  margin-top: 100px;
+}
+
+.developers-row__block {
+  margin: 0 25px;
+}
+
+.developers-row__name {
+  color: #fff;
+}
+
+.developers-row__position {
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  line-height: 49px;
+  font-weight: 500;
+  color: #ff6d6d;
+}
+
+.developers-row__blq {
+  opacity: 0.65;
+  font-weight: 400;
+  font-style: italic;
+  color: #fff;
+}
+
+.developers-partner-row {
+  max-width: 1000px;
+  width: 100%;
+  padding: 150px 0 0;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
