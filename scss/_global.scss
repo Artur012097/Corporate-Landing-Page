@@ -10,3 +10,51 @@ li {
 a {
     text-decoration: none;
 }
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pink-subtitle {
+    font-family: $Exo;
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: $medium;
+    letter-spacing: 0.2em;
+    color: $orange-red;
+    text-transform: uppercase;
+}
+
+.block-title {
+    font-family: $Exo;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: $medium;
+    letter-spacing: 0.04em;
+    color: $gray-dark;
+    margin-bottom: 45px;
+}
+
+.block-par {
+    opacity: 0.65;
+    font-family: $Exo;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: $medium;
+    letter-spacing: 0.04em;
+    color: $gray-dark;
+}
