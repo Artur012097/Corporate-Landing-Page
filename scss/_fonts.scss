@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,400;0,500;1,400&display=swap');
+
+@font-face {
+    font-family: 'ArialMT'; 
+    src: url("../fonts/ArialMT.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+$Lato: 'Lato', sans-serif;
+$ArialMT: 'ArialMT';
+$Exo: 'Exo', sans-serif;
+$thin: 100;
+$normal: 400;
+$bold: 700;
