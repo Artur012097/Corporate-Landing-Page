@@ -93,3 +93,23 @@ a {
         color: $gray-dark;
     }
 }
+
+.contact__title {
+    font-family: $Exo;
+    font-size: 22px;
+    line-height: 49px;
+    font-weight: $medium;
+    letter-spacing: 0.04em;
+    color: $gray-dark;
+    margin-bottom: 10px;
+}
+
+.contact__text {
+    opacity: 0.65;
+    font-family: $Exo;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: $normal;
+    letter-spacing: 0.04em;
+    color: $gray-dark;
+}

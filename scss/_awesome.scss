@@ -1,0 +1,22 @@
+.awesome {
+    min-width: 750px;
+
+    .container {
+        background-color: $milk;
+    }
+    
+    .content {
+        max-width: 650px;
+        height: inherit;
+        margin: 0 auto;
+    }
+
+    &-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    &-title {
+        margin-bottom: 50px;
+    }
+}

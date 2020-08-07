@@ -1,0 +1,109 @@
+.try {
+
+    .container {
+        background-color: $violet;
+        padding-bottom: 50px;
+    }
+
+    &__title {
+        color: $white;
+    }
+
+    &-form {
+        width: 100%;
+
+        &-row {
+            display: flex;
+            justify-content: space-between;
+            
+             .form-input {
+                background-color: rgba($white, 0.07);
+                border: none;
+                padding: 20px 30px;
+                border-radius: 5px;
+                color: $white;
+                font-size: 16px;
+                outline: none;
+
+                &::placeholder {
+                    color: $white;
+                    text-transform: uppercase;
+                    font-family: $Exo;
+                    font-size: 16px;
+                    line-height: 75px;
+                    font-weight: $normal;
+                    letter-spacing: 0.04em;
+                    color: $milk;           
+                }
+            }
+
+            .form__btn {
+                position: relative;
+                font-family: $Exo;
+                font-size: 16px;
+                line-height: 59px;
+                font-weight: $normal;
+                letter-spacing: 0.04em;
+                color: $milk;
+                background-color: $orange-red;
+                padding: 0 100px;
+                border-radius: 5px;
+                text-transform: uppercase;
+                cursor: pointer;
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: -50px;
+                    left: 5px;
+                    max-width: 41px;
+                    width: 100%;
+                    max-height: 41px;
+                    height: 100%;
+                    background: url(../img/try/try_arrow.png) no-repeat;
+                }
+
+                .form__subitem {
+                    position: absolute;
+                    display: flex;
+                    width: 100%;
+                    max-height: 41px;
+                    height: 100%;
+                    top: -47px;
+                    left: 30px;
+                    font-family: $Exo;
+                    font-size: 16px;
+                    line-height: 10px;
+                    font-weight: $normal;
+                    letter-spacing: 0.04em;
+                    color: $milk;
+                    text-transform: capitalize;
+
+                }
+            }
+
+            .form__subitem {
+                position: absolute;
+            }
+        }
+    }
+
+    &-agree {
+        padding: 20px 0;
+        text-align: center;
+
+        &__text, &__link {
+            opacity: 0.6;
+            font-family: $Exo;
+            font-size: 16px;
+            line-height: 75px;
+            font-weight: $normal;
+            letter-spacing: 0.04em;
+            color: $milk;
+        }
+
+        &__link {
+            text-decoration: underline;
+        }
+    }
+}

@@ -1,0 +1,112 @@
+.contact {
+
+    .container {
+        background: url(../img/contact/contact_bg.png) no-repeat;
+        background-position: 101% -100px;
+        background-size: contain;
+    }
+    .content {
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 0;
+
+    }
+    &-start {
+        width: 25%;
+
+        &__text {
+            display: block;
+            opacity: 0.56;
+        }
+
+        &__country {
+            display: block;
+            opacity: 0.56;
+        }
+
+        &__adress {
+            opacity: 0.56;
+        }
+        &__title {
+            font-family: $Lato;
+            font-size: 26.9px;
+            line-height: 33px;
+            font-weight: $normal;
+            color: $violet-darker;
+        }
+    }
+
+    &-support, &-about, &-get {
+        display: flex;
+        flex-direction: column;
+        span {
+            text-transform: uppercase;
+        }
+    }
+
+    &-get {
+        .contact-form {
+            position: relative;
+
+            &__mail {
+                border: none;
+                background-color: rgba($gray-dark, 0.1);
+                height: 49px;
+                padding: 0 30px;
+                border-radius: 5px;
+                outline: none;
+                color: $gray-dark;
+
+                &::placeholder {
+                    opacity: 0.4;
+                    font-family: $Exo;
+                    font-size: 16px;
+                    line-height: 75px;
+                    font-weight: $normal;
+                    letter-spacing: 0.04em;
+                    color: $black;
+                    text-transform: uppercase;
+                }
+            }
+
+            &__btn {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 52px;
+                height: 49px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: url(../img/contact/contact_send.png) no-repeat;
+                background-position:  center;
+                background-color: $orange-red;
+                border-radius: 5px;
+                box-shadow: 0px 3px 5px -2px rgba($black, 0.5);
+                cursor: pointer;
+                transition: 0.2s ease;
+
+                &:hover {
+                    box-shadow: 0px 3px 5px 1px rgba($black, 0.5);
+                }
+            }
+        }
+    }
+    
+    &-soc {
+        margin: 0 auto;
+        padding: 20px 0;
+
+        &__link {
+            display: inline-block;
+            color: rgba($gray-dark, 0.7);
+            font-size: 20px;
+            margin: 0 10px;
+            transition: 0.2s ease;
+
+            &:hover {
+                color: rgba($gray-dark, 1);
+            }
+        }
+    }
+}

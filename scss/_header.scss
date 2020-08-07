@@ -23,9 +23,9 @@ header {
             &-btn {
                 width: 60px;
                 height: 60px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                display: block;
+                background: url(../img/header/play.png) no-repeat;
+                background-position: 58% 51%;
                 margin: 40px auto;
                 background-color: $violet;
                 border: none;
